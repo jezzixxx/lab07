@@ -13,5 +13,5 @@ jobs:
 
     - name: Build
       run: |
-        sudo docker build -t application application.cpp
+        sudo docker build -t application .
         sudo docker run application
